@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "weather"
+version = "0.1.0"
+description = "Wrapper service for openweathermap.org"
+authors = ["Alexey Dubrov <vhsw@ya.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.770"
+black = "^19.10b0"
+pylint = "^2.4.4"
+flake8 = "^3.7.9"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

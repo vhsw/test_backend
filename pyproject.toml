@@ -8,6 +8,8 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.7"
 flask = "^1.1.2"
+python-dotenv = "^0.13.0"
+requests = "^2.23.0"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.770"

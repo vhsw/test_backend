@@ -24,3 +24,8 @@ def forcast(city: str):
     if days < 1 or days > 7:
         raise ValueError("days must be in 1..7")
     return jsonify(get_forcast(city, days))
+
+
+@app.route("/healthcheck")
+def healthcheck():
+    return jsonify(get_current_weather("Washington"))
